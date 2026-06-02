@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Button hover effects */
+button:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* Link hover effects */
+a:hover {
+  opacity: 0.8;
+}
+
+/* Smooth transitions */
+button, 
+a, 
+.card,
+input,
+textarea,
+select {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Input focus effects */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #e94560 !important;
+  box-shadow: 0 0 0 2px rgba(233, 69, 96, 0.1);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e94560;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c7354f;
+}

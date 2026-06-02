@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Uploads
+uploads/
+*.jpg
+*.png
+*.jpeg
+
+# Build files
+dist/
+build/
+.DS_Store
+
+# Logs
+*.log
